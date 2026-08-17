@@ -1,1 +1,107 @@
-/*  your css code here. If applicable */
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #d4ded2;
+        }
+
+        .container {
+            width: 1100px;
+            margin: 0 auto;
+            padding: 5px 15px 25px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            margin: 0 0 10px;
+            font-size: 42px;
+        }
+
+        .imageContainer {
+            width: 100%;
+            margin-bottom: 22px;
+        }
+
+        .imageContainer img {
+            width: 655px;
+            height: 345px;
+            object-fit: cover;
+            display: block;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+
+        td {
+            border: 1px solid #888;
+            padding: 10px;
+            vertical-align: top;
+            box-sizing: border-box;
+        }
+
+        .left-column,
+        .right-column {
+            width: 200px;
+        }
+
+        .middle-column {
+            width: 600px;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .table-image {
+            width: 180px;
+            height: 145px;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .top-row .middle-column {
+            vertical-align: middle;
+        }
+
+        .top-row .middle-column {
+            font-size: 18px;
+        }
+
+        .middle-column h2 {
+            margin: 0 0 10px;
+            font-size: 20px;
+        }
+
+        .middle-column p {
+            margin: 0;
+            line-height: 1.25;
+        }
+
+        .bottom-row .middle-column {
+            vertical-align: middle;
+        }
+
+        .bottom-row .middle-column h2 {
+            margin-bottom: 15px;
+        }
+
+        .bottom-row .left-column,
+        .bottom-row .right-column {
+            font-size: 17px;
+            line-height: 1.25;
+        }
+
+        .bottom-row .left-column p,
+        .bottom-row .right-column p {
+            margin: 5px 0;
+        }
+
+        .bottom-row .left-column strong,
+        .bottom-row .right-column strong {
+            font-size: 18px;
+        }
+
+        a {
+            color: #551a8b;
+        }
